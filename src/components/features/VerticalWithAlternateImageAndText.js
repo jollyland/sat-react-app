@@ -57,7 +57,7 @@ export default () => {
     {  
     imageSrc:
       "https://i.imgur.com/Vv56m7Z.gif",
-    subtitle: "預設技能 A",
+    subtitle: "預設技能 A/空白鍵",
     title: "跳躍",
     description:"使用跳躍以及二段跳，在遊戲中闖蕩。"
     },
@@ -87,7 +87,7 @@ export default () => {
       subtitle: "隨機技能 D/F",
       title: "攀牆",
       description:
-      "攀牆奔向自由，不滿足於家畜的安寧。"
+      "靠牆時施放，攀牆奔向自由，不滿足於家畜的安寧。"
 
     },
 
@@ -97,7 +97,7 @@ export default () => {
       subtitle: "隨機技能 D/F",
       title: "飄浮",
       description:
-      "在空中靜止，想去哪裡就去哪。"
+      "滯空時施放，在空中靜止，想去哪裡就去哪。"
     },
 
     {

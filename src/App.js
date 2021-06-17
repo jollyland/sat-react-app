@@ -6,7 +6,6 @@ import tw from "twin.macro";
 
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 
-
 import GamePage from "Game.js"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Hero from "components/hero/TwoColumnWithVideo.js"; //歡迎page
@@ -27,9 +26,9 @@ export default function App() {
     
     <Router basename={ process.env.PUBLIC_URL }>
     <Switch>
-      <Route path="/Game">
+      {/* <Route path="/">
         <GamePage />
-      </Route>
+      </Route> */}
       <Route path="/">
         <AnimationRevealPage disabled>
           <Hero />

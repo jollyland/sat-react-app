@@ -1,6 +1,13 @@
 import React from "react";
 import Unity, { UnityContext } from "react-unity-webgl";
 
+// const unityContext = new UnityContext({
+//   loaderUrl: "build/seeatrait15.loader.js",
+//   dataUrl: "build/seeatrait15.data",
+//   frameworkUrl: "build/seeatrait15.framework.js",
+//   codeUrl: "build/seeatrait15.wasm",
+// });
+
 const unityContext = new UnityContext({
   loaderUrl: "build/seeatraitv1.3.loader.js",
   dataUrl: "build/seeatraitv1.3.data",
