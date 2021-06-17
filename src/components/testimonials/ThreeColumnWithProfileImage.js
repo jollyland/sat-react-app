@@ -56,7 +56,7 @@ export default ({
       quote:"🎶😎驀然回首，學程三年走過，會寫程式沒有？至少畢展沒有，學分費放水流。謝謝各位朋友，畢製都來幫我；失業社畜走狗，願能賺錢揮霍，疫情結束以後，再約畢旅GOGO ✌️🥺🤚🎤",
       customerName: "ㄊㄊ",
       ghlink:"https://github.com/jollyland",
-      lknlink:""
+      lknlink:"https://www.linkedin.com/in/zitong-lin-516a931aa/"
     },
     {
       imageSrc:rabbit,
@@ -93,10 +93,10 @@ export default ({
                 {/* <SocialLink href="https://www.facebook.com/NCCUDCT12th">
                    <FacebookIcon />
                 </SocialLink> */}
-                <SocialLink href={testimonial.lknlink}>
+                <SocialLink target="_blank" href={testimonial.lknlink}>
                    <LinkedInIcon />
                 </SocialLink>
-                <SocialLink href={testimonial.ghlink}>
+                <SocialLink target="_blank" href={testimonial.ghlink}>
                    <GithubIcon />
                 </SocialLink>
                 </SocialLinksContainer>

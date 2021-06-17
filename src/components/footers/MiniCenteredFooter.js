@@ -45,19 +45,14 @@ export default () => {
           </CopyrightText>
           </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="https://www.facebook.com/NCCUDCT12th">
+            <SocialLink target="_blank" href="https://www.facebook.com/NCCUDCT12th">
               <FacebookIcon />
             </SocialLink>
             {/* 放學程首頁 找ICON */}
-            <SocialLink href="http://dct.nccu.edu.tw/">
+            <SocialLink target="_blank" href="http://dct.nccu.edu.tw/">
               <WebIcon />
             </SocialLink>
-            {/* <SocialLink href="https://twitter.com">
-              <TwitterIcon />
-            </SocialLink>
-            <SocialLink href="https://youtube.com">
-              <YoutubeIcon />
-            </SocialLink> */}
+
           </SocialLinksContainer>
           <CopyrightText>
             &copy; Copyright 2021, 跳上賊船 . All Rights Reserved.

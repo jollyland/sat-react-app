@@ -29,8 +29,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "yarn build && netlify deploy --prod --dir=build",
-    "homepage": "https://jollyland.github.io/SeeaTrait/"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "homepage": "https://jollyland.github.io/sat-react-app/"
   },
   "eslintConfig": {
     "extends": "react-app",

@@ -64,11 +64,13 @@ const CloseModalButton = tw.button`absolute top-0 right-0 mt-8 mr-8 hocus:text-p
 export default ({
   heading = "See a Trait",
   description="在只屬於你的舞台，上上上下下左右左右BA！",
-  alarming="*建議閱讀操作說明閱讀後再進行遊玩",
+  // description="測試測試測是測試測試github pages廢物",
+  alarming="* 建議閱讀操作說明閱讀後再進行遊玩",
   primaryButtonText="開始遊戲",
-  primaryButtonUrl="Game",
+  primaryButtonUrl="http://ghost.cs.nccu.edu.tw/~s10634/see-a-trait/",
   watchVideoButtonText="觀看影片",
-  watchVideoYoutubeUrl="https://www.youtube.com/embed/zmwDj-LgUuw", //DEMO影片
+  // watchVideoYoutubeUrl="https://www.youtube.com/embed/zmwDj-LgUuw", //DEMO影片
+  watchVideoYoutubeUrl="https://www.youtube.com/embed/yXnCM1o83C4", //DEMO影片
   imageSrc=DesignIllustration, //LOGO?
   imageCss=null,
   imageDecoratorBlob = false,
@@ -86,7 +88,7 @@ export default ({
             <Heading>{heading}</Heading>
             <Paragraph>{description}</Paragraph>
             <Actions>
-              <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
+              <PrimaryButton as="a" href={primaryButtonUrl} target="_blank">{primaryButtonText}</PrimaryButton>
               <WatchVideoButton onClick={toggleModal}>
                 <span className="playIconContainer">
                   <PlayIcon className="playIcon" />
